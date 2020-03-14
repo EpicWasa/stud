@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:p="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:h="http://java.sun.com/jsf/html">
+
+
+<body>
+    <table>
+        <c:forEach var="n" items="#{listBean.list.nodes}">
+            <tr>
+                <td>${n.studied}</td>
+                <td>${n.beginDate}</td>
+                <td>${n.deadline}</td>
+                <td>${n.details}</td>
+            </tr>
+        </c:forEach>
+    </table>
+
+    <p:form>
+        <label>Studied:</label>
+        <p:inputText type="text" name="studied"  value="#{listBean.studied}"  />
+        <label>yyyy-mm-dd:</label>
+        <p:inputText type="text" name="deadline" value="#{listBean.deadline}" />
+        <label>details</label>
+        <p:inputText type="text" name="details"  value="#{listBean.details}"/>
+        <h:commandButton action="#{listBean.AddNote}" type="submit" value = "YOSSSSSS"/>
+    </p:form>
+
+</body>
+</html>

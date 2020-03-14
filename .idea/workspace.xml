@@ -7,8 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c413dce-23e2-49e7-b7e1-e3396f6fe541" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hackaton/Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hackaton/Notes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hackaton/PlanList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hackaton/PlanList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hackaton/ListBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hackaton/NewNoteBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/stud.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/stud.war" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="jsf" />
         <option value="Class" />
       </list>
     </option>
@@ -41,8 +48,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\java\repos\stud\src\main\webapp\WEB-INF" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\java\repos\stud\src\main\webapp" />
     </key>
@@ -206,7 +217,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584189326835</updated>
-      <workItem from="1584189330263" duration="16372000" />
+      <workItem from="1584189330263" duration="19771000" />
+      <workItem from="1584215101431" duration="1757000" />
     </task>
     <task id="LOCAL-00001" summary="x">
       <created>1584189981992</created>
@@ -229,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584206247396</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="x">
+      <created>1584206751525</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584206751525</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +259,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -257,6 +278,11 @@
           <url>file://$PROJECT_DIR$/src/main/webapp/list.jsp</url>
           <line>19</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ua/hackaton/ListBean.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
