@@ -42,7 +42,7 @@ public class Notes {
 
     private LocalDate deadline;
 
-    private List<LocalDate> rememberDates = new ArrayList<>();
+    private ArrayList<LocalDate> rememberDates = new ArrayList<>();
 
     private  String studied;
 
@@ -54,11 +54,11 @@ public class Notes {
         this.deadline = deadline;
     }
 
-    public List<LocalDate> getRememberDates() {
+    public ArrayList<LocalDate> getRememberDates() {
         return rememberDates;
     }
 
-    public void setRememberDates(List<LocalDate> rememberDates) {
+    public void setRememberDates(ArrayList<LocalDate> rememberDates) {
         this.rememberDates = rememberDates;
     }
 

@@ -6,13 +6,13 @@ import java.util.List;
 
 public class PlanList {
 
-    public List<Notes> getNodes() {
+    public ArrayList<Notes> getNodes() {
         return nodes;
     }
 
-    public void setNodes(List<Notes> nodes) {
+    public void setNodes(ArrayList<Notes> nodes) {
         this.nodes = nodes;
     }
 
-    private List<Notes> nodes = new ArrayList<>();
+    private ArrayList<Notes> nodes = new ArrayList<>();
 }
