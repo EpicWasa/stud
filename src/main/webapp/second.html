@@ -1,17 +1,53 @@
 <html>
+
+
+<head>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+
+
+
+
+</head>
+
 <body>
 <h2>NOGA!</h2>
 
+<script type="module">
+    import {NoteList} from  './js/ListClass.js';
 
-<table id="notes" border='1'>
+    var t = "";
+    for (var i = 0; i < NoteList.list.length; i++){
+        var tr = "<tr>";
+        tr += "<td>"+NoteList.list[i].studied+"</td>";
+        tr += "<td>"+NoteList.list[i].fromDate+"</td>";
+        tr += "<td>"+NoteList.list[i].toDate+"</td>";
+        tr += "<td>"+NoteList.list[i].additionalInfo+"</td>";
+        tr += "</tr>";
+        t += tr;
+    }
+    document.getElementById("example").innerHTML += t;
+</script>
+
+<table id="example" border='1'>
     <tr>
         <th>Studied</th>
         <th>Add Date</th>
         <th>DeadLine</th>
+        <th>Additional</th>
     </tr>
 </table>
 
 
+<form>
+    <input type="text" id = "studied" name = "studied" />
+    <input type="text" id = "addition" name = "addition" />
+    <input type="date" id="date" name = "to-date" />
+    <input type="submit" value="push" id = 'add-note'>
+</form>
+
+<script type="module" src="js/NoteAdder.js"></script>
 
 </body>
 </html>

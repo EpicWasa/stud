@@ -6,7 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c413dce-23e2-49e7-b7e1-e3396f6fe541" name="Default Changelist" comment="" />
+    <list default="true" id="5c413dce-23e2-49e7-b7e1-e3396f6fe541" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ListClass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/NoteAdder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hackaton/ListBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hackaton/MainServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hackaton/NewNoteBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/second.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/second.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/stud.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/stud.war" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +32,8 @@
         <option value="Jsp File" />
         <option value="jsf" />
         <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -37,15 +52,17 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\java\repos\stud\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\java\repos\stud\src\main\webapp\js" />
       <recent name="C:\java\repos\stud\src\main\webapp" />
     </key>
   </component>
@@ -210,6 +227,9 @@
       <updated>1584189326835</updated>
       <workItem from="1584189330263" duration="19771000" />
       <workItem from="1584215101431" duration="2210000" />
+      <workItem from="1584219784097" duration="3704000" />
+      <workItem from="1584225642742" duration="6079000" />
+      <workItem from="1584262400121" duration="1194000" />
     </task>
     <task id="LOCAL-00001" summary="x">
       <created>1584189981992</created>
@@ -272,15 +292,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/list.jsp</url>
-          <line>19</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ua/hackaton/ListBean.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="18" />
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/webapp/js/NoteAdder.js</url>
+          <line>13</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
