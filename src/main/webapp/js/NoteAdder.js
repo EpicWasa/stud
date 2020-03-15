@@ -19,6 +19,7 @@ addNote.onclick = function(event){
 
 function generateTable(table) {
     var t = " <tr>\n" +
+
         "        <th>Studied</th>\n" +
         "        <th>Add Date</th>\n" +
         "        <th>DeadLine</th>\n" +
